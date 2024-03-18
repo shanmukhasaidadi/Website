@@ -1,0 +1,145 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm', {"team": "active"})
+
+@@include('blocks/page-title.htm',{ "title" : "Team" })
+
+<section class="team-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title text-center">
+          <h3>Great
+            <span>Team</span>
+          </h3>
+          <p>Having a great team of software engineers is crucial for successful software implementation. Here are some
+            key attributes and considerations</p>
+        </div>
+        <!-- Nav tabs -->
+        <div class="tabs">
+          <ul class="nav nav-tabs justify-content-center" id="teamTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="engineer-tab" data-toggle="tab" href="#engineer" role="tab"
+                aria-controls="engineer" aria-selected="true">Engineers</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="managers-tab" data-toggle="tab" href="#managers" role="tab"
+                aria-controls="managers" aria-selected="false">Managers</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="providers-tab" data-toggle="tab" href="#providers" role="tab"
+                aria-controls="providers" aria-selected="false">providers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="teamTab">
+          <!--Start single tab content-->
+          <div class="team-members tab-pane fade show active" id="doctor">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Jyothibabu.png" class="img-fluid" alt="team"> -->
+                  <h6>Jyothibabu Araja</h6>
+                  <!-- <p>Senior Software Engineer</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Durga.png" class="img-fluid" alt="team"> -->
+                  <h6>Golla Durga</h6>
+                  <!-- <p>Software Engineer</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End single tab content-->
+          <!--Start single tab content-->
+          <div class="team-members tab-pane fade" id="managers">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Jyothibabu.png" class="img-fluid" alt="team"> -->
+                  <h6>Jyothibabu Araja</h6>
+                  <!-- <p>Sr.Manager</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Durga.png" class="img-fluid" alt="team"> -->
+                  <h6>Golla Naga Durga</h6>
+                  <!-- <p>Manager</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Namahsivaya.png" class="img-fluid" alt="team"> -->
+                  <h6>Namah Shivaya Kurete</h6>
+                  <!-- <p>Asst.Manager</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End single tab content-->
+          <!--Start single tab content-->
+          <div class="team-members tab-pane fade" id="providers">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Vinay.png" class="img-fluid" alt="team"> -->
+                  <h6>Golla Vinay Kumar</h6>
+                  <!-- <p>Sr. Developer</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Pranav.png" class="img-fluid" alt="team"> -->
+                  <h6>Gandham Pranav</h6>
+                  <!-- <p>Jr. Developer</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Ganesh.png" class="img-fluid" alt="team"> -->
+                  <h6>Sai Ganesh Araja</h6>
+                  <!-- <p>Asst. Developer</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End single tab content-->
+          <!--Start single tab content-->
+          <div class="team-members tab-pane fade" id="providers">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Jyothibabu.png" class="img-fluid" alt="team"> -->
+                  <h6>Jyothibabu Araja</h6>
+                  <!-- <p>Ceo</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Ganesh.png" class="img-fluid" alt="team"> -->
+                  <h6>Sai Ganesh Araja</h6>
+                  <!-- <p>Developer</p> -->
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="team-person text-center">
+                  <!-- <img loading="lazy" src="images/team/Vinay.png" class="img-fluid" alt="team"> -->
+                  <h6>Golla Vinay Kumar</h6>
+                  <!-- <p>Manager</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End single tab content-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')
