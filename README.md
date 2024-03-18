@@ -1,17 +1,10 @@
 # Medic By Themefisher
 
 If your goal is to create a professional medical website, look no further than Medic. The Medic can be implemented on any health clinic, dentist, private doctor, or surgeon website.
-
-<!-- demo -->
-## Example Site
-
-| [![](screenshots/homepage.png)](https://demo.themefisher.com/themefisher/medic/index.html) | [![](screenshots/about.png)](https://demo.themefisher.com/themefisher/medic/about.html) | [![](screenshots/service.png)](https://demo.themefisher.com/themefisher/medic/service.html) |
 |:---:|:---:|:---:|
 | **Homepage**  | **About**  | **Service**  |
-| [![](screenshots/gallery.png)](https://demo.themefisher.com/themefisher/medic/gallery.html) | [![](screenshots/team.png)](https://demo.themefisher.com/themefisher/medic/team.html) | [![](screenshots/contact.png)](https://demo.themefisher.com/themefisher/medic/contact.html) |
-| **Gallery** | **Team** | **Contact** |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/themefisher/medic/)
+| **Gallery** | **Team** | **Contact** |
 
 <!-- pages -->
 ## Pages
@@ -25,11 +18,6 @@ If your goal is to create a professional medical website, look no further than M
 * **Blogs**
 * **Blog Details**
 * **Contact**
-
-<!-- download -->
-## Download And installation
-
-Download this template from [Github](https://github.com/themefisher/medic/archive/main.zip)
 
 <!-- installation -->
 ### Basic Usages
@@ -49,7 +37,6 @@ For advanced usage, you have some prerequisites to install. Then you can run it 
 npm install --global gulp-cli
 ```
 
-Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/quick-start)
 
 #### Local setup
 
@@ -83,9 +70,6 @@ Now you get a `theme` folder that has all the changes you have made. you can use
 
 <!-- reporting issue -->
 ## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the medic Template. Please Search [existing issues](https://github.com/themefisher/medic/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/medic/issues).
 
 <!-- support -->
 ## Technical Support or Questions (Paid)
